@@ -1,5 +1,5 @@
 readonly BACKUP_FILE="$1"
-readonly JENKINS_PATH = "/var/jenkins_home/"
+readonly JENKINS_PATH="/var/jenkins_home/"
 
 # Usage: ./jenkins-backup.sh backup_YYYmmDD  Ex: backupt_20210416
 
