@@ -7,7 +7,7 @@ echo "Entering Jenkins Folder"
 cd /var/jenkins_home/backups_pipe/
 echo "Unziping backup"
 tar xzvf ${BACKUP_FILE}.tar.gz 
-echo "Moving Backup"
+echo "Moving Backup to ${JENKINS_PATH}"
 cp -R jenkins-backup/* ${JENKINS_PATH}
 echo "Changing owner"
 chown jenkins:jenkins -R ${JENKINS_PATH}
